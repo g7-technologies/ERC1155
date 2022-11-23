@@ -10,7 +10,6 @@ import "./ERC1155Receiver.sol";
  * IMPORTANT: When inheriting this contract, you must include a way to use the received tokens, otherwise they will be
  * stuck.
  *
- * @dev _Available since v3.1._
  */
 contract ERC1155Holder is ERC1155Receiver {
     function onERC1155Received(
